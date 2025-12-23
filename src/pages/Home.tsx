@@ -18,7 +18,7 @@ const Home = () => {
         Welcome, {displayName ? (
           <span className="text-blue-600">{displayName}!</span>
         ) : (
-          'Guest User'
+          'Guest user'
         )}
       </h1>
       <p className="mt-2 text-slate-500 text-sm">
